@@ -2,6 +2,7 @@
 
 ## Env file
 
+```
 PORT=3001
 DB_USER=""
 DB_PASS=""
@@ -12,3 +13,4 @@ AWS_SECRET_KEY=""
 AWS_SESSION_TOKEN=""
 AWS_REGION="eu-west-1"
 AWS_CSFLE_KMS_KEY_ARN="arn:aws:kms:eu-west-1::key/"
+```
