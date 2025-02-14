@@ -1,4 +1,14 @@
-# Example
+# Example CSFLE
+
+To get this example working replace the environment variables with your information, including:
+
+- Your atlas cluster connection
+- AWS Role permissions for the application
+- AWS KMS key
+
+Additionally, don't forget to enable KMS encryption at the project level in Atlas. Add a role that can use your KMS key. Add the KMS key ID and finally, enable KMS encryption on a M10+ cluster.
+
+Start the app to configure KMS for the first time. Running it again will re-use the same key.
 
 ## Env file
 

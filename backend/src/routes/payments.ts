@@ -49,5 +49,12 @@ paymentsRoutes.get("/payments/", async (req, res) => {
     console.log("First customer Payment inserted");
   }
 
+  const customer2 = {
+    customer: "test",
+    amount: "50.00",
+    creditCardNumber: "1234 5678 9101 1121",
+  };
+  await collection.insertOne(customer2);
+
   res.status(200).json({ message: "Success!", payments });
 });
